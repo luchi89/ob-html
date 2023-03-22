@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>formularios</title>
+</head>
+    <body>
+        <form action="resultados.html" method="GET">  
+            <div>
+                <label for="nombreusuario">Nombre de usuario</label>
+                <input type="text" name="nombreusuario" id="nombreusuario"/>
+            </div>
+            <br>
+            <div>
+                <label for="password">contraseña</label>
+                <input type="password" name="password" id="password"/>
+            </div>
+            <br>
+            <div>
+                <label for="edad">cual es tu edad?</label>
+                <input type="number" name="edad" id="edad" min="0" max="200" step="5"/>
+            </div>
+            <br>
+            <div>
+                <label for="nacimiento">cual es tu fecha de nacimiento</label>
+                <input type="date" name="nacimiento" id="nacimiento"/> 
+            </div>
+            <br>
+            <div>
+                <label for="email">cual es tu email</label>
+                <input type="email" name="email" id="email"/>
+            </div>
+            <br>
+            <div>
+                <label for="comentarios">comentarios</label>
+                <textarea name="comentarios" id="comentarios"></textarea>
+            </div>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
+            
+
+// inputs: deben tener el campo name porque es lo que va a hacer que se diferencien del resto
+// atributo campo obligatorio que se usa en usuarios y passwords.
